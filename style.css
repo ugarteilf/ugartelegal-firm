@@ -3,66 +3,82 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9f9f9;
-    color: #333;
+    background-color: #f9f9f9;
 }
+
 .container {
     width: 90%;
-    max-width: 1100px;
-    margin: auto;
-    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 header {
-    background: #1e2a38;
+    background-color: #003366;
     color: #fff;
     padding: 20px 0;
 }
-header h1 {
-    float: left;
-    margin-left: 20px;
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
-header nav {
-    float: right;
-    margin-right: 20px;
+
+.logo img {
+    height: 50px;
 }
-header nav ul {
+
+nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
 }
-header nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-header nav ul li a {
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 .hero {
-    background: #0a76a4;
-    color: #fff;
+    background-color: #e5f1ff;
     padding: 60px 20px;
     text-align: center;
 }
-.hero h2 {
-    margin-bottom: 10px;
-}
-.btn {
-    background: #fff;
-    color: #0a76a4;
+
+.hero .btn {
+    background-color: #003366;
+    color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 }
+
 .content-section {
     padding: 40px 20px;
-    background: #fff;
-    margin-bottom: 20px;
+    background-color: #fff;
 }
+
+blockquote {
+    border-left: 4px solid #003366;
+    margin: 20px 0;
+    padding-left: 15px;
+    color: #333;
+}
+
 footer {
-    background: #1e2a38;
+    background-color: #003366;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+.image-section img.lawyer-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
 }
